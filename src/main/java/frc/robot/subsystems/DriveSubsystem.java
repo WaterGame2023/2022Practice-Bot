@@ -13,7 +13,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 //Change to proper CAN adress before use!!!
 public class DriveSubsystem extends SubsystemBase {
   private TalonFX Left = new TalonFX(1);
-  private TalonSRX gyroSRX = new TalonSRX(2);
+  private TalonSRX backLeft = new TalonSRX(2);
   private TalonFX Right = new TalonFX(5);
   //private TalonSRX backRight = new TalonSRX(4);
 
